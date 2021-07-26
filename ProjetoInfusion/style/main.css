@@ -17,6 +17,10 @@ img {
   background: #fff;
   width: 100%;
 }
+.js .header {
+  position: fixed;
+  width: 100%;
+}
 .logo-text {
   text-transform: uppercase;
   background-color: #63c6ae;
@@ -56,6 +60,13 @@ img {
 }
 .header-nav a:hover {
   color: #63c6ae;
+}
+.header-btnMenu {
+  float: right;
+  margin: 1.5em;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
 }
 
 .hero {
