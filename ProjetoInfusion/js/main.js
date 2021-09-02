@@ -8,7 +8,11 @@
 
 
 
-
+    var menu = new menu({
+        container:'.header-nav',
+        toggleBtn:'.header-btnMenu',
+        widthEnabled:1024
+    })
 
 
 
