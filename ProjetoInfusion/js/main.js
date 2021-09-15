@@ -3,15 +3,32 @@
     $body.classList.remove('no-js')
     $body.classList.add('js')
 
-    var $btnMenu = document.querySelector('.header-btnMenu');
-    $btnMenu.removeAttribute('style');
+  
 
 
 
-    var menu = new menu({
+    var menu = new Menu({
         container:'.header-nav',
         toggleBtn:'.header-btnMenu',
         widthEnabled:1024
+    });
+
+
+
+    //para por o carrossel a funcionar
+    var carouselImgs = new Carousel({
+        container:'.laptop-slider .slideshow',
+        itens : 'figure',
+        btnPrev:'.prev',
+        btnNext:'.next'
+    })
+
+
+var carouselQuotes = new Carousel({
+        container:'.quote-container .quote-slideshow',
+        itens : 'figure',
+        btnPrev:'.prev',
+        btnNext:'.next'
     })
 
 
